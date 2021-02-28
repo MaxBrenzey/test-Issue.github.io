@@ -1,0 +1,10 @@
+
+
+-to add person type to inputs and click add
+
+-to change information click to table road after that  change info in inputs and click
+edit
+
+-to delete person click to table road after that click remove
+
+-have problem in localstorage info in rewriting cannot add a new obgect.

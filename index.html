@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- form -->
+  <form>
+    <div class="col-5 mt-2">
+      <input type="text" name="fname" id="fname" class="form-control" placeholder="Full_name">
+      <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+      <input type="number" name="age" id="age" class="form-control" placeholder="number">
+    </div>
+  </form>
+
+  <!-- inputs -->
+  <button id="addBtn" type="button" class="btn btn-success ml-3 mt-2">Add</button>
+  <button id="editBtn" type="button" class="btn btn-warning mt-2">Edit</button>
+  <button id="removeBtn" type="button" class="btn btn-danger mt-2">Remove</button>
+
+  <!-- table -->
+  <table id="table" class="table table-hover table-dark mt-2">
+    <thead>
+      <tr>
+        <th>Full_name</th>
+        <th>Email</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mark</td>
+        <td>example@gmail.com</td>
+        <td>1</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
